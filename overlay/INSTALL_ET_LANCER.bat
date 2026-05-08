@@ -1,0 +1,6 @@
+@echo off
+echo Installation des dependances...
+pip install psutil pynvml pystray pillow screeninfo --quiet
+echo.
+echo Lancement de l'overlay...
+pythonw overlay.py
