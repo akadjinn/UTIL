@@ -44,7 +44,7 @@ Tout se modifie dans le bloc `CONFIG` en tête de `overlay.py`.
 
 | Paramètre | Défaut | Description |
 |---|---|---|
-| `REFRESH_MS` | `200` | Intervalle de collecte et d'affichage (ms) |
+| `REFRESH_MS` | `200` | Intervalle de collecte et d'affichage (ms), plus lent 500ms |
 | `SMOOTH_N` | `3` | Lissage moving average — nombre de samples. `1` = brut, `5` = très lissé |
 | `FONT` | `Consolas 12 bold` | Police, taille, style |
 
